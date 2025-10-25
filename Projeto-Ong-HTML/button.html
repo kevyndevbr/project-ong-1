@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doe Agora - ONG Sport Alternative</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ONG Sport Alternative</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+
+    <section class="formulario-doacao">
+      <div class="container">
+        <h2>Faça sua doação</h2>
+        <form action="#" method="post">
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required />
+
+          <label for="cep">CEP:</label>
+          <input type="text" id="cep" name="cep" placeholder="00000-000" required pattern="\d{5}-\d{3}" title="Digite o CEP no formato 00000-000" />
+
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" placeholder="Rua, Avenida, etc" required />
+
+          <label for="valor">Valor da doação (R$):</label>
+          <input type="number" id="valor" name="valor" min="1" required />
+
+          <label for="forma">Forma de pagamento:</label>
+          <select id="forma" name="forma" required>
+            <option value="">Selecione</option>
+            <option value="pix">Pix</option>
+            <option value="cartao">Cartão de Crédito</option>
+            <option value="boleto">Boleto Bancário</option>
+          </select>
+
+          <label for="mensagem">Mensagem opcional:</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Escreva algo para a ONG..." rows="4"></textarea>
+
+          <button type="submit" class="doe-button">Enviar Doação</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ONG Sport Alternative. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

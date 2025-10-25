@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro - ONG Sport Alternative</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ONG Sport Alternative</div>
+      <ul class="nav-links">
+        <li><a href="index.html#sobre">Inicio</a></li>
+       
+      </ul>
+      <a href="button.html" class="doe-button">Doe Agora</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="formulario-cadastro container">
+      <h1>Cadastro de Voluntário</h1>
+      <form action="#" method="post">
+        <label for="cep">CEP: *</label>
+        <input type="text" id="cep" name="cep" required pattern="\d{5}-\d{3}" placeholder="00000-000" title="Digite o CEP no formato 00000-000">
+
+        <label for="endereco">Endereço: *</label>
+        <input type="text" id="endereco" name="endereco" required placeholder="Rua, Avenida, etc">
+
+        <label for="numero">Número: *</label>
+        <input type="text" id="numero" name="numero" required placeholder="123">
+
+        <label for="complemento">Complemento:</label>
+        <input type="text" id="complemento" name="complemento" placeholder="Apartamento, Bloco, etc">
+
+        <label for="bairro">Bairro: *</label>
+        <input type="text" id="bairro" name="bairro" required placeholder="Nome do bairro">
+
+        <label for="cidade">Cidade: *</label>
+        <input type="text" id="cidade" name="cidade" required placeholder="Nome da cidade">
+
+        <label for="estado">Estado: *</label>
+        <select id="estado" name="estado" required>
+          <option value="">Selecione o estado</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+
+        <button type="submit" class="doe-button">Enviar Cadastro</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ONG Sport Alternative. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
