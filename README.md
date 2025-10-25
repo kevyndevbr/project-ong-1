@@ -7,6 +7,10 @@ O objetivo do site é engajar a comunidade, fornecer informações claras sobre 
 
 ---
 
+🖥️ Demonstração
+👉 ##Acesse o site publicado : kevyndevbr.github.io/project-ong-1/
+
+
 ## Funcionalidades
 
 - **Página Inicial**: apresenta a ONG, sua missão e visão.
