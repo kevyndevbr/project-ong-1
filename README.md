@@ -7,8 +7,10 @@ O objetivo do site é engajar a comunidade, fornecer informações claras sobre 
 
 ---
 
-🖥️ Demonstração
-👉 ##Acesse o site publicado : kevyndevbr.github.io/project-ong-1/
+## 🖥️ Demonstração
+Acesse o site publicado no GitHub Pages:  
+[https://kevyndevbr.github.io/project-ong-1/](https://kevyndevbr.github.io/project-ong-1/)
+
 
 
 ## Funcionalidades
