@@ -11,7 +11,7 @@ O objetivo do site é engajar a comunidade, fornecer informações claras sobre 
 Acesse o site publicado no GitHub Pages:  
 [https://kevyndevbr.github.io/project-ong-1/](https://kevyndevbr.github.io/project-ong-1/)
 
-
+---
 
 ## Funcionalidades
 
@@ -20,15 +20,18 @@ Acesse o site publicado no GitHub Pages:
 - **Formulário de Cadastro de Voluntários**: permite que pessoas se cadastrem e se envolvam.
 - **Formulário de Doação**: possibilita doações via Pix, cartão de crédito ou boleto, com campos intuitivos e informações detalhadas.
 - **Design Responsivo**: compatível com dispositivos móveis e desktops.
-- **Menu de Navegação**: fácil acesso às principais seções do site.
+- **Menu de Navegação**: fácil acesso às principais seções, com submenu dropdown e menu hambúrguer para mobile.
+- **Sistema de Cards**: exibição responsiva dos projetos da ONG.
+- **Componentes de Feedback**: modals e toasts para mensagens de sucesso ou erro.
+- **Botões Interativos**: estados visuais para hover, focus e active.
 
 ---
 
 ## Tecnologias Utilizadas
 
 - **HTML5**: estrutura do site
-- **CSS3**: estilização e design responsivo
-- **JavaScript**: validação de formulários e interatividade
+- **CSS3**: estilização, design system com cores, tipografia e espaçamento modular, grid e flexbox
+- **JavaScript**: validação de formulários e interatividade (menu hambúrguer, modals, toasts)
 - **Sem frameworks externos** (site leve e simples de manter)
 
 ---
@@ -37,15 +40,14 @@ Acesse o site publicado no GitHub Pages:
 
 /projeto-ong
 │
-├─ index.html # Página inicial
-├─ cadastro.html # Formulário de voluntário
-├─ button.html # Página de doação
-├─ projetos.html # Projetos da ONG
-├─ style.css # Arquivo de estilos CSS
+├─ index.html        # Página inicial
+├─ cadastro.html     # Formulário de voluntário
+├─ button.html       # Página de doação
+├─ projetos.html     # Projetos da ONG
+├─ style.css         # Arquivo de estilos CSS
 ├─ js/
-│ └─ script.js # Script JS para interatividade
-└─ README.md # Este arquivo
-
+│   └─ script.js     # Script JS para interatividade
+└─ README.md         # Este arquivo
 
 ---
 
@@ -53,23 +55,4 @@ Acesse o site publicado no GitHub Pages:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/kevyndevbr/projeto-ong.git
-
-Abra o arquivo index.html em um navegador de sua preferência.
-
-Navegue pelo site para acessar formulários, projetos e informações da ONG.
-
-Contribuição
-
-Contribuições são bem-vindas! Para contribuir:
-
-Faça um fork do projeto.
-
-Crie uma branch com sua feature: git checkout -b feature/nova-feature
-
-Commit suas alterações: git commit -m 'Adiciona nova feature'
-
-Push para a branch: git push origin feature/nova-feature
-
-Abra um Pull Request.
-
+git clone https://github.com/kevyndevbr/projeto-ong-1.git
