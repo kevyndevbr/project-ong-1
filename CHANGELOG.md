@@ -28,3 +28,23 @@
 - Suporte a leitores de tela
 - Navegação totalmente acessível via teclado
 
+
+## [1.2.0] - 2025-11-17 - Organização de Textos
+
+### Adicionado
+- Arquivo `textos.js` com centralizador de todos os textos do site
+- Estrutura organizada por seção: páginas, navegação, rodapé, formulários
+- Arquivo `TEXTOS-ORGANIZACAO.md` com guia completo de uso
+- Suporte para futura tradução/internacionalização
+- Textos de acessibilidade (ARIA labels)
+
+### Melhorias
+- Centralizacao de textos facilita manutenção de conteúdo
+- Melhora reutilização de mensagens entre páginas
+- Consistencia garantida de textos em todo site
+- Alinhado com critérios WCAG 2.1 AA
+
+### Padrões
+- Nomenclatura em camelCase com underscore
+- Todos os textos em português brasileiro
+- Organização por contexto (página/seção)
